@@ -1,3 +1,3 @@
-# Privacy policy - "Shashki Ma, Ne?"
+# mussaevyasha.github.io
 
-Published at https://mussaevyasha.github.io/shashkima-privacy/
+Developer site of Sidewalk Games. Privacy policy of "Shashki Ma, Ne?": https://mussaevyasha.github.io/shashkima/privacy/
