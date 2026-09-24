@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Удаление данных — «Шашки ма, не?» / Data deletion</title>
+<meta name="description" content="Как запросить удаление данных в мобильной игре «Шашки ма, не?» / How to request data deletion in the mobile game Shashki Ma, Ne?">
+<style>
+  :root { --bg: #fffaf0; --text: #1f2430; --muted: #5b6272; --accent: #c98a00; --card: #ffffff; --line: #ecdfc2; --band: #ffc83d; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1f2430; --text: #f3efe6; --muted: #aab0bf; --accent: #ffc83d; --card: #2a3040; --line: #3a4154; --band: #ffc83d; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .band { height: 10px; background: repeating-linear-gradient(90deg, #1f2430 0 20px, var(--band) 20px 40px); }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 16px 56px; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.3rem; margin: 0 0 12px; }
+  h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+  .date { color: var(--muted); margin: 0 0 18px; }
+  nav { margin: 0 0 22px; }
+  nav a { margin-right: 16px; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px 20px; margin-bottom: 22px; }
+  ul, ol { padding-left: 22px; margin: 6px 0; }
+  li { margin-bottom: 8px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 0.95em; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  code { font-size: 0.92em; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<div class="band"></div>
+<main>
+  <h1>Удаление данных / Data deletion — «Шашки ма, не?»</h1>
+  <p class="date">Обновлено / Updated: 24 сентября 2026 г. / September 24, 2026</p>
+  <nav><a href="#ru">Русский</a><a href="#en">English</a><a href="/shashkima/privacy/">Политика конфиденциальности / Privacy Policy</a></nav>
+
+  <section id="ru" lang="ru">
+    <h2>Русский</h2>
+    <p>Эта страница относится к мобильной игре «Шашки ма, не?» (Shashki Ma, Ne?, пакет <code>com.sidewalkgames.shashkima</code>) разработчика Мусаева Ялкуна Толкуновича (в Google Play — Sidewalk Games).</p>
+
+    <h3>Как запросить удаление данных</h3>
+    <ol>
+      <li>Напишите письмо на <a href="mailto:mussaevyasha@gmail.com?subject=%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%E2%80%94%20%D0%A8%D0%B0%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B0%2C%20%D0%BD%D0%B5%3F">mussaevyasha@gmail.com</a> с темой «Удаление данных — Шашки ма, не?».</li>
+      <li>Укажите имя, под которым вы играете в мировом рейтинге (оно показано в профиле в настройках игры). Если имя не менялось, укажите примерную дату установки и лучший результат — так мы найдём вашу запись.</li>
+      <li>В течение 30 дней мы удалим ваши данные и ответим на письмо.</li>
+    </ol>
+    <p>Прогресс на устройстве удаляется без обращения к нам: кнопкой «Сбросить прогресс» в настройках игры или при удалении приложения.</p>
+
+    <h3>Что удаляется и что хранится</h3>
+    <table>
+      <tr><th>Данные</th><th>Где хранятся</th><th>Что произойдёт</th></tr>
+      <tr><td>Запись в мировом рейтинге: имя, аватар, лучший результат</td><td>Unity Gaming Services (Leaderboards)</td><td>Удаляется по запросу в течение 30 дней</td></tr>
+      <tr><td>Анонимный идентификатор игрока</td><td>Unity Gaming Services (Authentication)</td><td>Удаляется вместе с записью рейтинга</td></tr>
+      <tr><td>Прогресс игры: монеты, покупки за игровую валюту, задания, настройки</td><td>Только на вашем устройстве</td><td>Удаляется кнопкой «Сбросить прогресс» или при удалении приложения</td></tr>
+      <tr><td>Данные рекламы: рекламный идентификатор, показы и клики</td><td>Google AdMob</td><td>Обрабатываются Google по <a href="https://policies.google.com/privacy">его политике</a>; сбросить рекламный идентификатор можно в настройках Android (Google → Реклама)</td></tr>
+      <tr><td>Журналы сбоев и диагностика</td><td>Unity, Google</td><td>Хранятся у поставщиков сервисов не дольше 90 дней и не связаны с вашим именем</td></tr>
+    </table>
+    <p>После удаления мы не храним копий ваших данных. Если вы снова откроете игру, будет создан новый анонимный идентификатор.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>English</h2>
+    <p>This page applies to the mobile game "Shashki Ma, Ne?" (package <code>com.sidewalkgames.shashkima</code>) by Yalkun Mussaev (listed on Google Play as Sidewalk Games).</p>
+
+    <h3>How to request data deletion</h3>
+    <ol>
+      <li>E-mail <a href="mailto:mussaevyasha@gmail.com?subject=Data%20deletion%20%E2%80%94%20Shashki%20Ma%2C%20Ne%3F">mussaevyasha@gmail.com</a> with the subject "Data deletion — Shashki Ma, Ne?".</li>
+      <li>Tell us the name you use on the global leaderboard (shown in the profile under the game's settings). If you never changed it, give the approximate install date and your best score so we can find your entry.</li>
+      <li>We delete the data and reply within 30 days.</li>
+    </ol>
+    <p>Progress stored on the device does not need a request: use "Reset progress" in the game's settings or uninstall the app.</p>
+
+    <h3>What is deleted and what is kept</h3>
+    <table>
+      <tr><th>Data</th><th>Where it lives</th><th>What happens</th></tr>
+      <tr><td>Global leaderboard entry: name, avatar, best score</td><td>Unity Gaming Services (Leaderboards)</td><td>Deleted on request within 30 days</td></tr>
+      <tr><td>Anonymous player ID</td><td>Unity Gaming Services (Authentication)</td><td>Deleted together with the leaderboard entry</td></tr>
+      <tr><td>Game progress: coins, in-game purchases, quests, settings</td><td>Your device only</td><td>Removed by "Reset progress" or by uninstalling the app</td></tr>
+      <tr><td>Advertising data: advertising ID, impressions, clicks</td><td>Google AdMob</td><td>Handled by Google under <a href="https://policies.google.com/privacy">its privacy policy</a>; you can reset the advertising ID in Android settings (Google → Ads)</td></tr>
+      <tr><td>Crash logs and diagnostics</td><td>Unity, Google</td><td>Kept by the service providers for no longer than 90 days, not linked to your name</td></tr>
+    </table>
+    <p>We keep no copies after deletion. If you open the game again, a new anonymous ID is created.</p>
+  </section>
+</main>
+</body>
+</html>
